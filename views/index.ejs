@@ -1,0 +1,13 @@
+<%- include ('partials/header.ejs') %> 
+
+<h1>Blogs</h1>
+<% blogs.forEach((blog) => { %>
+    <div>
+        <h3><%= blog.title %></h3>
+        <img src="<%= blog.image %>">
+        <p><%= blog.body %></p>
+        <p>Date: <%= blog.created %></p>
+    </div>
+<% }) %>
+
+<%- include ('partials/footer.ejs') %>
