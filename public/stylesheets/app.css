@@ -1,0 +1,52 @@
+html,
+body {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+i.icon {
+    padding-right: 1.5em;
+}
+
+div.ui.fixed.inverted.menu {
+    margin-bottom: 10px;
+}
+
+.container.main {
+    margin-top: 7.0em;
+}
+
+span#titleName {
+    color: rgba(40, 127, 189, 0.87);
+}
+
+#delete {
+    display: inline;
+}
+
+.ui.grid {
+    margin-top: 0;
+    display: flex;
+    width: 100%;
+}
+
+.ui.fluid.card {
+    flex: 1;
+    padding: 15px;
+}
+
+.ui.basic.blue.button {
+    padding: 12px 12px 12px 5px;
+}
+
+div.content {
+    padding: 12px 0;
+}
+
+.ui.text.container {
+    padding: 16px 25px;
+}
+
+#logout {
+    visibility: hidden;
+}

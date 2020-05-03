@@ -3,7 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Blog App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <link rel="stylesheet" href="/stylesheets/app.css" type="text/css" />
   </head>
   <body>
-</html>
+    <div class="ui fixed inverted menu">
+      <div class="ui container">
+        <div class="header item"><i class="paw icon"></i>Blog site</div>
+        <a href="/" class="item">Home</a>
+        <a href="/blogs/new" class="item">New Post</a>
+        <div class="right menu">
+          <a href="/blogs/login" class="item">Login</a>
+          <a href="/blogs/logout" class="item" id="logout">Logout</a>
+        </div>
+      </div>
+    </div>
